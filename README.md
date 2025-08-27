@@ -55,35 +55,48 @@ Created stored procedures to automate the calculation process.
 Utilized historical sales data and forecast figures to determine accuracy.
 ---
 
-Key Learnings
-Multi-Table Joins
-Mastered the art of joining multiple tables to fetch relevant data for analysis.
-Ensured data integrity and optimized query performance.
-Stored Procedures
-Automated repetitive tasks and complex calculations using stored procedures.
-Enhanced the maintainability and scalability of SQL queries.
-Views
-Created views to simplify complex queries and present data in an easily understandable format.
-Leveraged views for quick and efficient data retrieval.
-User-Defined Functions
-Developed custom functions to perform specific calculations.
-Improved code reusability and clarity.
-Window Functions
-Used window functions for advanced calculations and data ranking.
-Enhanced the ability to perform analytics directly within SQL queries.
-Common Table Expressions (CTEs)
-Utilized CTEs for breaking down complex queries into simpler parts.
-Improved query readability and maintainability.
-Ranking
-Implemented ranking functions to identify top-performing products, markets, and customers.
-Enhanced the ability to perform comparative analysis.
-Temporary Tables
-Used temporary tables for intermediate data storage during complex calculations.
-Ensured efficient use of resources and optimized query performance.
-Conclusion
-This project involved analyzing AtliQ Hardware's business data using MySQL to solve various business problems. The insights gained from this analysis help in better decision-making and relationship management with customers. The project also provided hands-on experience with advanced SQL concepts, which are crucial for any data-driven business analysis.
----
-
 ### 7. Stored Procedure - Market Badge  
 Objective: Create a stored procedure to assign a badge to markets based on performance.  
 👉 [View SQL Script](SQL_SCRIPTS/Stored_Procedures_Get_Market_Badge.sql)
+
+## Key Learnings
+
+### Multi-Table Joins
+- Mastered the art of joining multiple tables to fetch relevant data for analysis.  
+- Ensured data integrity and optimized query performance.  
+
+### Stored Procedures
+- Automated repetitive tasks and complex calculations using stored procedures.  
+- Enhanced the maintainability and scalability of SQL queries.  
+
+### Views
+- Created views to simplify complex queries and present data in an easily understandable format.  
+- Leveraged views for quick and efficient data retrieval.  
+
+### User-Defined Functions
+- Developed custom functions to perform specific calculations.  
+- Improved code reusability and clarity.  
+
+### Window Functions
+- Used window functions for advanced calculations and data ranking.  
+- Enhanced the ability to perform analytics directly within SQL queries.  
+
+### Common Table Expressions (CTEs)
+- Utilized CTEs for breaking down complex queries into simpler parts.  
+- Improved query readability and maintainability.  
+
+### Ranking
+- Implemented ranking functions to identify top-performing products, markets, and customers.  
+- Enhanced the ability to perform comparative analysis.  
+
+### Temporary Tables
+- Used temporary tables for intermediate data storage during complex calculations.  
+- Ensured efficient use of resources and optimized query performance.  
+
+---
+
+## Conclusion
+This project involved analyzing **AtliQ Hardware's business data** using MySQL to solve various business problems.  
+The insights gained from this analysis help in better decision-making and relationship management with customers.  
+The project also provided hands-on experience with **advanced SQL concepts**, which are crucial for any data-driven business analysis.
+
