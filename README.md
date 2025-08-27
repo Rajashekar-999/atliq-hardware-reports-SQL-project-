@@ -20,9 +20,9 @@ Objective: I need an aggregate monthly gross sales report for Croma India custom
 👉 [View SQL Script](SQL_SCRIPTS/Croma_Monthly_Total_Sales.sql)
 Solution:
 
-Employed aggregate functions to calculate gross sales.
-Generated a monthly report showing total sales figures for Croma India.
-Ensured the report could be easily updated and queried using a stored procedure.
+- Employed aggregate functions to calculate gross sales.
+- Generated a monthly report showing total sales figures for Croma India.
+- Ensured the report could be easily updated and queried using a stored procedure.
 ---
 
 ### 3. Top Market, Top Products, and Top Customers by Net Sales  
@@ -30,9 +30,9 @@ Objective: Identify the top market, top products, and top customers by net sales
 👉 [View SQL Script](SQL_SCRIPTS/Net_Sales_By_Market_Product_Customer.sql)
 Solution:
 
-Used multiple views in MySQL Workbench to aggregate and rank data.
-Implemented window functions and Common Table Expressions (CTEs) to extract the top entities.
-Created detailed views to facilitate easy access to this information for further analysis.
+- Used multiple views in MySQL Workbench to aggregate and rank data.
+- Implemented window functions and Common Table Expressions (CTEs) to extract the top entities.
+- Created detailed views to facilitate easy access to this information for further analysis.
 ---
 
 ### 4. Top N Products by Quantity Sold for Each Division  
@@ -40,9 +40,9 @@ Objective: Get the top N products of each division by their quantity sold in a g
 👉 [View SQL Script](SQL_SCRIPTS/Top_Products_Sold_Per_Division_By_Qty_Fy.sql)
 Solution:
 
-Designed a query to rank products based on quantity sold using window functions.
-Created a view to dynamically fetch the top N products for each division.
-Utilized CTEs and temporary tables to manage intermediate calculations.
+- Designed a query to rank products based on quantity sold using window functions.
+- Created a view to dynamically fetch the top N products for each division.
+- Utilized CTEs and temporary tables to manage intermediate calculations.
 ---
 
 ### 5. Forecast Accuracy for Customers  
@@ -50,10 +50,13 @@ Objective: Calculate and analyze forecast accuracy for customers.
 👉 [View SQL Script](SQL_SCRIPTS/Forecast_Accuracy_For_Customers.sql)
 Solution:
 
-Developed user-defined functions to compute forecast accuracy.
-Created stored procedures to automate the calculation process.
-Utilized historical sales data and forecast figures to determine accuracy.
+- Developed user-defined functions to compute forecast accuracy.
+- Created stored procedures to automate the calculation process.
+- Utilized historical sales data and forecast figures to determine accuracy.
 ---
+### 6. Top 2 Market in Every Region  
+Objective: Identify the top 2 markets in each region by sales.  
+👉 [View SQL Script](SQL_SCRIPTS/Top_2_Market_In_Every_Region.sql)
 
 ### 7. Stored Procedure - Market Badge  
 Objective: Create a stored procedure to assign a badge to markets based on performance.  
