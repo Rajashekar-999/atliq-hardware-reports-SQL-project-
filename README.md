@@ -10,9 +10,9 @@ Objective: As a product owner, I want to generate a report of individual product
 👉 [View SQL Script](SQL_SCRIPTS/Croma_India_SalesReport_FY2021.sql)
 Solution:
 
-Utilized multi-table joins to fetch sales data.
-Aggregated sales at the product code level on a monthly basis.
-Created a view to streamline the process for further analysis.
+- Utilized multi-table joins to fetch sales data.
+- Aggregated sales at the product code level on a monthly basis.
+- Created a view to streamline the process for further analysis.
 ---
 
 ### 2. Aggregate Monthly Gross Sales Report for Croma India  
